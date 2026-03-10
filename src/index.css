@@ -3,6 +3,36 @@
 @tailwind components;
 @tailwind utilities;
 
+@theme {
+    --color-lightColor: #EDE8D5;
+    --color-coralColor: #E2725B;
+    --color-darkCoralColor: #E0563A;
+    --color-greenColor: #3B4D2B;
+    --color-oliveColor: #605F29;
+    --color-orangeColor: #FFB96A;
+    --color-blueColor: #003D99;
+    --color-bgColor: #FFFAF5;
+    --color-lightBlueTextColor: #E8EBFF;
+    --color-blackColor: #242424;
+
+    --font-main: "Space Grotesk", sans-serif;
+    --font-heading: "Fraunces", serif;
+    --font-accent: "Archivo Black", sans-serif;
+}
+
+
+body{
+    /*font-family: "Space Grotesk", sans-serif;*/
+    font-family: "Fraunces", serif;
+    /*font-family: "Archivo Black", sans-serif;*/
+
+    height: 100%;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 /*:root {*/
 /*  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;*/
 /*  line-height: 1.5;*/

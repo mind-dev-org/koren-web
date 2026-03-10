@@ -1,13 +1,12 @@
 import { Outlet } from "react-router-dom";
+import Header from "../components/Header";
 
 export default function MainLayout() {
     return (
-        <div className="min-h-screen bg-gray-50 flex flex-col">
-            <header className="bg-white shadow p-4">
-                <h1 className="text-2xl font-bold text-green-700">header</h1>
-            </header>
+        <div className="flex flex-col min-h-screen">
+            <Header/>
 
-            <main className="flex-1 max-w-7xl mx-auto px-6 py-8">
+            <main className="flex-1">
                 <Outlet />
             </main>
 
